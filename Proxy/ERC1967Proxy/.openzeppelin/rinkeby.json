@@ -1,0 +1,741 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xc80bde42067b41C4981E043523b443d248e0B02e",
+    "txHash": "0x16cb687571507659006827124fb44af77f344074efdf40783f5e4c6e271986b9"
+  },
+  "proxies": [
+    {
+      "address": "0xF4dec2d5Af12f92f7a291B1B73f4E0c5010a598D",
+      "txHash": "0x2b797aaf8a24b7da214afefa7664ce6833767802791f1bffcd98d33d59e0397e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9D78f17196E31C010e26Ac0A8D54c830d1ECC0A3",
+      "txHash": "0x998e02070d04428b3356bee182292f6a443f6dcdadee255fa74d729999740fc5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x41B047110Bb63Aa9411fBA32306ACDba2D3FC437",
+      "txHash": "0xfd38db0dd55faac6844d9417b2a3f30b5d215ab2f053d50058356a9456fc4374",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x81AbF9d046523AcF7177fc391e7F67Cd27d8cE47",
+      "txHash": "0x2c2d59325fc66981e33fe613e75ed23d74d502b6fe7376bbe2f223ae1d0a6f5c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6fc49bb8dd9Aeed5DFE2e95fD557fdf60807D70A",
+      "txHash": "0xfb1fca21ccd8ff1297cfa70f8d9a62ea4ea69f6f3b0e6291a1177a586cdae368",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCa5C87537B7Ae3C296AFE32dDCEcE974c3b66344",
+      "txHash": "0x61b6aa82b5fa62749c1912866c2b26e5c1f352fd2c53ebac82b8b0a2b24bfa74",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "f65b63565352a22f87aeddac0a460a33a85e7c972d5f719f82e5c457ebc4f197": {
+      "address": "0x7b8f0f01d4B8dDb7e3A0713D8c819f3B1F3C9708",
+      "txHash": "0x640141e9a94c9da5bca7be19dff4bef6254645f5f0989d8b241c8010fcbba420",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:380"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:97"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_rewardAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:18"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_feeReceiveAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:20"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_buyFee",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:21"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_sellFee",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:22"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_pancakeLPAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:24"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_limiter",
+            "type": "t_contract(Limiter)9767",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:26"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_lpCreatorAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:28"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_isLockTransferForAntiBot",
+            "type": "t_bool",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:29"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_lpAddresses",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:31"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(Limiter)9767": {
+            "label": "contract Limiter"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "cfa3c2a5025216a8b53e9efbac9a7451d9a866d2a357e6573dbf24d7b8bf328a": {
+      "address": "0xA2D0f3f9f4c58B1E98e16fB0AF67fffe2e791Fa6",
+      "txHash": "0xa44426165fc3870b3f3769eecc8ee5454c5bc14b59cd3c1c30f22289f6809c71",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\ERC20Upgradeable.sol:380"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:97"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "..\\..\\..\\@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_rewardAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:18"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_feeReceiveAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:20"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_buyFee",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:21"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_sellFee",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:22"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_pancakeLPAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:24"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_limiter",
+            "type": "t_contract(Limiter)9767",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:26"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_lpCreatorAddress",
+            "type": "t_address",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:28"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_isLockTransferForAntiBot",
+            "type": "t_bool",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:29"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_lpAddresses",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "..\\..\\..\\project:\\src\\smart-contracts\\contracts\\WickeDrive.sol:31"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(Limiter)9767": {
+            "label": "contract Limiter"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "b2ee2ea5114a20e7c6de698b5c513b077eae7b6e21c23507c40c49b2427e1642": {
+      "address": "0x77b6b08c9c3D61c560b507b64305F66F89121D9C",
+      "txHash": "0xc7eb4082b163cb97bfcf21deefc68f091cad1d171e27d4a165b035f79bf344f2",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\ERC20Upgradeable.sol:380"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:97"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_rewardAddress",
+            "type": "t_address",
+            "src": "contracts\\WickeDrive.sol:18"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_feeReceiveAddress",
+            "type": "t_address",
+            "src": "contracts\\WickeDrive.sol:20"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_buyFee",
+            "type": "t_uint256",
+            "src": "contracts\\WickeDrive.sol:21"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_sellFee",
+            "type": "t_uint256",
+            "src": "contracts\\WickeDrive.sol:22"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_pancakeLPAddress",
+            "type": "t_address",
+            "src": "contracts\\WickeDrive.sol:24"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_limiter",
+            "type": "t_contract(Limiter)1703",
+            "src": "contracts\\WickeDrive.sol:26"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_lpCreatorAddress",
+            "type": "t_address",
+            "src": "contracts\\WickeDrive.sol:28"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_isLockTransferForAntiBot",
+            "type": "t_bool",
+            "src": "contracts\\WickeDrive.sol:29"
+          },
+          {
+            "contract": "WickeDrive",
+            "label": "_lpAddresses",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\WickeDrive.sol:31"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(Limiter)1703": {
+            "label": "contract Limiter"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "3fb203dcba8df98ccb7efae9aa6b82860652a9064c94ab4d94ac7e1920232933": {
+      "address": "0xd0b3372Ef35747e0d976898D832c5C05a3AB3514",
+      "txHash": "0x990c3417cba5875679dd3253ffd0e0a04ca014accbf4bfc0c585d55a3528f263",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\ERC20Upgradeable.sol:35"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\ERC20Upgradeable.sol:42"
+          },
+          {
+            "contract": "ERC20Upgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)45_storage",
+            "src": "contracts\\ERC20Upgradeable.sol:380"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\security\\PausableUpgradeable.sol:97"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_limiter",
+            "type": "t_contract(Limiter)1703",
+            "src": "contracts\\NFTGame.sol:13"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_rewardAddress",
+            "type": "t_address",
+            "src": "contracts\\NFTGame.sol:14"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_feeReceiveAddress",
+            "type": "t_address",
+            "src": "contracts\\NFTGame.sol:15"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_lpCreatorAddress",
+            "type": "t_address",
+            "src": "contracts\\NFTGame.sol:16"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_pancakeLPAddress",
+            "type": "t_address",
+            "src": "contracts\\NFTGame.sol:17"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_buyFee",
+            "type": "t_uint256",
+            "src": "contracts\\NFTGame.sol:18"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_sellFee",
+            "type": "t_uint256",
+            "src": "contracts\\NFTGame.sol:19"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_isLockTransferForAntiBot",
+            "type": "t_bool",
+            "src": "contracts\\NFTGame.sol:20"
+          },
+          {
+            "contract": "NFTGame",
+            "label": "_lpAddresses",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\NFTGame.sol:21"
+          }
+        ],
+        "types": {
+          "t_contract(Limiter)1703": {
+            "label": "contract Limiter"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  }
+}
